@@ -32,7 +32,7 @@ def run():
                 response = "DATA\t{qname}\t{qclass}\tSRV\t{ttl}\t-1\t{content}\n".format(
                     qname=qname,
                     qclass=qclass,
-                    ttl= 60,
+                    ttl=60,
                     content=content)
                 stderr.write(response)
                 stdout.write(response)     
